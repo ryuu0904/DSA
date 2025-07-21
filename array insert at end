@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int array[100],n,i,element;
+    cout<< "Enter the number of elements: ";
+    cin>> n;
+    cout<<"Enter the elements in the array: ";
+    for(i=0;i<n;i++){
+        cin>> array[i];
+    }
+    
+    cout<< "Enter the element to be inserted at the end: ";
+    cin>> element;
+    
+    array[i]= element;
+    n++;
+    
+    cout<<"Array after inserting "<<element<<" at the end: ";
+    for(i=0;i<n;i++){
+        cout<<array[i]<<" ";
+    }
+}
